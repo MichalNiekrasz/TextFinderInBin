@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrzeszukiwanieDowolnychPlikow", "PrzeszukiwanieDowolnychPlikow\PrzeszukiwanieDowolnychPlikow.csproj", "{0DA733AB-12A0-4840-9825-002E729E11AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteki", "Biblioteki\Biblioteki.csproj", "{AF22BC29-D303-41D8-9C94-CB852EF5185F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA733AB-12A0-4840-9825-002E729E11AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA733AB-12A0-4840-9825-002E729E11AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA733AB-12A0-4840-9825-002E729E11AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA733AB-12A0-4840-9825-002E729E11AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF22BC29-D303-41D8-9C94-CB852EF5185F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF22BC29-D303-41D8-9C94-CB852EF5185F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF22BC29-D303-41D8-9C94-CB852EF5185F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF22BC29-D303-41D8-9C94-CB852EF5185F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

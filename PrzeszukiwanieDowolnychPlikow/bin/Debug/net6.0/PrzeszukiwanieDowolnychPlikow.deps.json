@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PrzeszukiwanieDowolnychPlikow/1.0.0": {
+        "dependencies": {
+          "Biblioteki": "1.0.0"
+        },
+        "runtime": {
+          "PrzeszukiwanieDowolnychPlikow.dll": {}
+        }
+      },
+      "Biblioteki/1.0.0": {
+        "runtime": {
+          "Biblioteki.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PrzeszukiwanieDowolnychPlikow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Biblioteki/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

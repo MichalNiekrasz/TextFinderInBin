@@ -1,0 +1,12 @@
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\bin\Debug\net6.0\Biblioteki.deps.json
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\bin\Debug\net6.0\Biblioteki.dll
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\bin\Debug\net6.0\ref\Biblioteki.dll
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\bin\Debug\net6.0\Biblioteki.pdb
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.csproj.AssemblyReference.cache
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.AssemblyInfoInputs.cache
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.AssemblyInfo.cs
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.csproj.CoreCompileInputs.cache
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.dll
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\ref\Biblioteki.dll
+C:\Code\cs\PrzeszukiwanieDowolnychPlikow\Biblioteki\obj\Debug\net6.0\Biblioteki.pdb
