@@ -10,6 +10,8 @@ static class Program{
 
         string? pathToFile;
 
+        bool showOfsset;
+
         int? number = 4;
         int currentNumber = 0;
 
@@ -17,24 +19,35 @@ static class Program{
         pathToFile = Class.GetPathOfFile();
         number = Class.GetNumberOfMinimalLengh();
         keystring = Class.GetKey();
+        showOfsset = Class.showOfsset();
 
+        int i = 0;
+        string additionalThings = "";
         foreach (var item in File.ReadAllText(pathToFile))
         {
+            
+            
             if(item>32&&item<127){
                 currentNumber++;
                 currentOutput += item;
             }
             else{
                 if(currentNumber>=number){
-                    output.Add(currentOutput);                 
+                    if(showOfsset){
+                        additionalThings = $"{i-currentNumber}. - ";
+                    }
+                    output.Add(additionalThings + currentOutput);                 
                 }
                 currentOutput = "";
                 currentNumber = 0;
             }
-            
+            i++;
         }
         if(currentNumber>=number){
-            output.Add(currentOutput);    
+            if(showOfsset){
+                additionalThings = $"{i-currentNumber}. - ";
+            }
+            output.Add(additionalThings + currentOutput);    
             currentOutput = "";
             currentNumber = 0;              
         }

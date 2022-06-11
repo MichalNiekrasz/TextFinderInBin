@@ -16,6 +16,7 @@ public class Class
         return path;
     }
     public static int? GetNumberOfMinimalLengh(){
+        Console.Clear();
         do{
             
             Console.Write("Write here a minimal lenght of the string u want to read:  ");
@@ -45,9 +46,23 @@ public class Class
         string? s = Console.ReadLine();
         return s;
     }
+    public static bool showOfsset(){
+        string? o = null;
+        do{
+            Console.Clear();
+            System.Console.Write("Do u want to show offset of each string? (Y/N):  ");
+            string? s = Console.ReadLine();
+            if(s==null) continue;
+            if(s.ToUpper() == "N" || s.ToUpper() == "Y") o = s.ToUpper();
+        }
+        while(o == null);
+
+        if(o == "Y") return true;
+        else return false;
+
+    }
     public static void PrintAndFilterList(List<string> list, string? key = null){
         var end = new List<string>();
-        int i = 0;
         foreach (var str in list)
         {
             if(key==null || key==""){
@@ -62,8 +77,7 @@ public class Class
         }
         foreach (var item in end)
         {
-            System.Console.WriteLine($"{i}: {item}");
-            i++;
+            System.Console.WriteLine(item);
         }
     }
 }
