@@ -3,18 +3,20 @@ using System.IO;
 using Biblioteki;
 
 static class Program{
-    static string output = "";
-    static string currentOutput = "";
-
-    static string? pathToFile;
-
-
-    static int? number = 4;
-    static int currentNumber = 0;
     private static void Main(){
+        var output = new List<string>();
+        string currentOutput = "";
+        string? keystring = null;
+
+        string? pathToFile;
+
+        int? number = 4;
+        int currentNumber = 0;
+
         System.Console.Clear();
         pathToFile = Class.GetPathOfFile();
         number = Class.GetNumberOfMinimalLengh();
+        keystring = Class.GetKey();
 
         foreach (var item in File.ReadAllText(pathToFile))
         {
@@ -24,18 +26,18 @@ static class Program{
             }
             else{
                 if(currentNumber>=number){
-                    output+=currentOutput+"\n";                  
+                    output.Add(currentOutput);                 
                 }
                 currentOutput = "";
-                number = 0;
+                currentNumber = 0;
             }
             
         }
         if(currentNumber>=number){
-            output+=currentOutput+"";    
+            output.Add(currentOutput);    
             currentOutput = "";
-            number = 0;              
+            currentNumber = 0;              
         }
-        System.Console.WriteLine(output);
+        Class.PrintAndFilterList(output,keystring);
     }
 }

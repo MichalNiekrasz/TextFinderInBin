@@ -5,10 +5,11 @@ public class Class
     static int? number;
     public static string GetPathOfFile(){
         do{
+            Console.Clear();
             Console.Write("Write here a path to file u want to read:  ");
             path = Console.ReadLine();
             
-            Console.Clear();
+
         }
         while(path==null||path=="");
 
@@ -37,5 +38,32 @@ public class Class
         while(number==null);
         
         return number;
+    }
+    public static string? GetKey(){
+        Console.Clear();
+        System.Console.Write("Write here a key text to be found (leave blank when u want see everything):  ");
+        string? s = Console.ReadLine();
+        return s;
+    }
+    public static void PrintAndFilterList(List<string> list, string? key = null){
+        var end = new List<string>();
+        int i = 0;
+        foreach (var str in list)
+        {
+            if(key==null || key==""){
+                end = list;
+                break;
+            }
+            
+            if(str.Contains(key)){
+                end.Add(str);
+            }
+            
+        }
+        foreach (var item in end)
+        {
+            System.Console.WriteLine($"{i}: {item}");
+            i++;
+        }
     }
 }
