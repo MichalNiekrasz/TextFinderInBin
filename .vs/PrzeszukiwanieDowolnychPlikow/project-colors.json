@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0da733ab-12a0-4840-9825-002e729e11ac": {
+      "ProjectGuid": "0da733ab-12a0-4840-9825-002e729e11ac",
+      "DisplayName": "PrzeszukiwanieDowolnychPlikow",
+      "ColorIndex": 0
+    },
+    "af22bc29-d303-41d8-9c94-cb852ef5185f": {
+      "ProjectGuid": "af22bc29-d303-41d8-9c94-cb852ef5185f",
+      "DisplayName": "Biblioteki",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
